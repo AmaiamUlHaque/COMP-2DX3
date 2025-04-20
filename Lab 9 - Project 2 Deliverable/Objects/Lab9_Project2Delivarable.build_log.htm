@@ -1,0 +1,196 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Amaiam Haque, McMaster University COMPENG 2DX3, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.41.0.0
+Toolchain Path:  C:\Users\haque\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.21.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\haque\Documents\Keil\Lab 9 - Project 2 Deliverable\Lab9_Project2Delivarable.uvprojx
+Project File Date:  03/31/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\haque\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target_1'
+onboardLEDs.c(69): warning: unused parameter 'count' [-Wunused-parameter]
+   69 | void FlashI2CError(int count) {
+      |                        ^
+1 warning generated.
+compiling onboardLEDs.c...
+compiling SysTick.c...
+compiling uart.c...
+compiling PLL.c...
+compiling lab9.c...
+vl53l1_platform.c(41): warning: unused parameter 'dev' [-Wunused-parameter]
+   41 | int8_t VL53L1_WriteMulti( uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count) {
+      |                                    ^
+vl53l1_platform.c(41): warning: unused parameter 'index' [-Wunused-parameter]
+   41 | int8_t VL53L1_WriteMulti( uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count) {
+      |                                                  ^
+vl53l1_platform.c(41): warning: unused parameter 'pdata' [-Wunused-parameter]
+   41 | int8_t VL53L1_WriteMulti( uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count) {
+      |                                                                  ^
+vl53l1_platform.c(41): warning: unused parameter 'count' [-Wunused-parameter]
+   41 | int8_t VL53L1_WriteMulti( uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count) {
+      |                                                                                  ^
+vl53l1_platform.c(45): warning: unused parameter 'dev' [-Wunused-parameter]
+   45 | int8_t VL53L1_ReadMulti(uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count){
+      |                                  ^
+vl53l1_platform.c(45): warning: unused parameter 'index' [-Wunused-parameter]
+   45 | int8_t VL53L1_ReadMulti(uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count){
+      |                                                ^
+vl53l1_platform.c(45): warning: unused parameter 'pdata' [-Wunused-parameter]
+   45 | int8_t VL53L1_ReadMulti(uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count){
+      |                                                                ^
+vl53l1_platform.c(45): warning: unused parameter 'count' [-Wunused-parameter]
+   45 | int8_t VL53L1_ReadMulti(uint16_t dev, uint16_t index, uint8_t *pdata, uint32_t count){
+      |                                                                                ^
+vl53l1_platform.c(49): warning: unused parameter 'dev' [-Wunused-parameter]
+   49 | int8_t VL53L1_WrByte(uint16_t dev, uint16_t index, uint8_t data) {
+      |                               ^
+vl53l1_platform.c(49): warning: unused parameter 'index' [-Wunused-parameter]
+   49 | int8_t VL53L1_WrByte(uint16_t dev, uint16_t index, uint8_t data) {
+      |                                             ^
+vl53l1_platform.c(49): warning: unused parameter 'data' [-Wunused-parameter]
+   49 | int8_t VL53L1_WrByte(uint16_t dev, uint16_t index, uint8_t data) {
+      |                                                            ^
+vl53l1_platform.c(53): warning: unused parameter 'dev' [-Wunused-parameter]
+   53 | int8_t VL53L1_WrWord(uint16_t dev, uint16_t index, uint16_t data) {
+      |                               ^
+vl53l1_platform.c(53): warning: unused parameter 'index' [-Wunused-parameter]
+   53 | int8_t VL53L1_WrWord(uint16_t dev, uint16_t index, uint16_t data) {
+      |                                             ^
+vl53l1_platform.c(53): warning: unused parameter 'data' [-Wunused-parameter]
+   53 | int8_t VL53L1_WrWord(uint16_t dev, uint16_t index, uint16_t data) {
+      |                                                             ^
+vl53l1_platform.c(57): warning: unused parameter 'dev' [-Wunused-parameter]
+   57 | int8_t VL53L1_WrDWord(uint16_t dev, uint16_t index, uint32_t data) {
+      |                                ^
+vl53l1_platform.c(57): warning: unused parameter 'index' [-Wunused-parameter]
+   57 | int8_t VL53L1_WrDWord(uint16_t dev, uint16_t index, uint32_t data) {
+      |                                              ^
+vl53l1_platform.c(57): warning: unused parameter 'data' [-Wunused-parameter]
+   57 | int8_t VL53L1_WrDWord(uint16_t dev, uint16_t index, uint32_t data) {
+      |                                                              ^
+vl53l1_platform.c(61): warning: unused parameter 'dev' [-Wunused-parameter]
+   61 | int8_t VL53L1_RdByte(uint16_t dev, uint16_t index, uint8_t *data) {
+      |                               ^
+vl53l1_platform.c(61): warning: unused parameter 'index' [-Wunused-parameter]
+   61 | int8_t VL53L1_RdByte(uint16_t dev, uint16_t index, uint8_t *data) {
+      |                                             ^
+vl53l1_platform.c(61): warning: unused parameter 'data' [-Wunused-parameter]
+   61 | int8_t VL53L1_RdByte(uint16_t dev, uint16_t index, uint8_t *data) {
+      |                                                             ^
+vl53l1_platform.c(65): warning: unused parameter 'dev' [-Wunused-parameter]
+   65 | int8_t VL53L1_RdWord(uint16_t dev, uint16_t index, uint16_t *data) {
+      |                               ^
+vl53l1_platform.c(65): warning: unused parameter 'index' [-Wunused-parameter]
+   65 | int8_t VL53L1_RdWord(uint16_t dev, uint16_t index, uint16_t *data) {
+      |                                             ^
+vl53l1_platform.c(65): warning: unused parameter 'data' [-Wunused-parameter]
+   65 | int8_t VL53L1_RdWord(uint16_t dev, uint16_t index, uint16_t *data) {
+      |                                                              ^
+vl53l1_platform.c(69): warning: unused parameter 'dev' [-Wunused-parameter]
+   69 | int8_t VL53L1_RdDWord(uint16_t dev, uint16_t index, uint32_t *data) {
+      |                                ^
+vl53l1_platform.c(69): warning: unused parameter 'index' [-Wunused-parameter]
+   69 | int8_t VL53L1_RdDWord(uint16_t dev, uint16_t index, uint32_t *data) {
+      |                                              ^
+vl53l1_platform.c(69): warning: unused parameter 'data' [-Wunused-parameter]
+   69 | int8_t VL53L1_RdDWord(uint16_t dev, uint16_t index, uint32_t *data) {
+      |                                                               ^
+vl53l1_platform.c(73): warning: unused parameter 'dev' [-Wunused-parameter]
+   73 | int8_t VL53L1_WaitMs(uint16_t dev, int32_t wait_ms){
+      |                               ^
+vl53l1_platform.c(73): warning: unused parameter 'wait_ms' [-Wunused-parameter]
+   73 | int8_t VL53L1_WaitMs(uint16_t dev, int32_t wait_ms){
+      |                                            ^
+28 warnings generated.
+compiling vl53l1_platform.c...
+vl53l1_platform_2dx4.c(159): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  159 |         for(int i = 0; i < count-1; i++){ 
+      |                        ~ ^ ~~~~~~~
+vl53l1_platform_2dx4.c(288): warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+  288 |         for(int i = 0; i < count; i++) readI2C(pdata++);
+      |                        ~ ^ ~~~~~
+vl53l1_platform_2dx4.c(346): warning: unused parameter 'data' [-Wunused-parameter]
+  346 | int8_t VL53L1_WrDWord(uint16_t dev, uint16_t index, uint32_t data) {
+      |                                                              ^
+vl53l1_platform_2dx4.c(427): warning: unused parameter 'dev' [-Wunused-parameter]
+  427 | int8_t VL53L1_WaitMs(uint16_t dev, int32_t wait_ms){
+      |                               ^
+vl53l1_platform_2dx4.c(430): warning: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int32_t' (aka 'int') [-Wsign-compare]
+  430 |   for(i=0; i<wait_ms; i++){
+      |            ~^~~~~~~~
+5 warnings generated.
+compiling vl53l1_platform_2dx4.c...
+assembling startup_msp432e401y_uvision.s...
+compiling system_msp432e401y.c...
+VL53L1X_api.c(271): warning: unused variable 'tmp' [-Wunused-variable]
+  271 |         uint8_t tmp;
+      |                 ^~~
+1 warning generated.
+compiling VL53L1X_api.c...
+linking...
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_RdByte multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_WriteMulti multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_RdWord multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_ReadMulti multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_WrByte multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_WrWord multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_WrDWord multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_RdDWord multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+.\Objects\Lab9_Project2Delivarable.axf: Error: L6200E: Symbol VL53L1_WaitMs multiply defined (by vl53l1_platform_2dx4.o and vl53l1_platform.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 9 error messages.
+".\Objects\Lab9_Project2Delivarable.axf" - 9 Error(s), 35 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432E4_DFP.3.2.6.pack
+                TexasInstruments::MSP432E4_DFP@3.2.6
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432E4 Series
+   * Component: Startup Version: 3.2.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/haque/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/haque/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: TexasInstruments::Device:Startup@3.2.3
+      Source file:   Device/Source/startup_msp432e401y_uvision.s
+      Source file:   Device/Source/system_msp432e401y.c
+      Source file:   Examples/EmptyMain/main.c
+      Source file:   Examples/BlinkLED/blinkLED.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
